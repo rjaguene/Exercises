@@ -1,0 +1,17 @@
+PARS_FLAG(1)
+
+NAME
+	pars_flag, automatic parsing tool
+
+SYNOPSIS
+	#include "pars_flag.h"
+
+	pars_flag(char argv, int argc, char *flag_list)
+
+DESCRIPTION
+	pars_flag() function will give back tu the user a tab with all flag passed as
+	params. Pars flag print error massage in case of the input format is incorect
+
+RETURN VALUES
+	pars_flag() function return a structur with a char *tab containing parsed 
+	datas, and an int ok. -1 if any error, 1 if all is ok.
