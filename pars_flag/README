@@ -9,9 +9,9 @@ SYNOPSIS
 	pars_flag(char argv, int argc, char *flag_list)
 
 DESCRIPTION
-	pars_flag() function will give back tu the user a tab with all flag passed as
-	params. Pars flag print error massage in case of the input format is incorect
+	pars_flag() function will give back to the user a tab with all flag passed as
+	params. Pars flag, print error massage in case of incorect input format.
 
 RETURN VALUES
 	pars_flag() function return a structur with a char *tab containing parsed 
-	datas, and an int ok. -1 if any error, 1 if all is ok.
+	datas, and an int 'ok'. -1 if any error, 1 if all is ok.
